@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // const usersUrl = 'http://localhost:3003/users';
-const usersUrl = 'https://git.heroku.com/infotaker.git';
+const usersUrl = 'https://0eef-2405-201-5c15-b098-ed96-ba8e-d0e5-92f4.in.ngrok.io';
 
 export const getUsers = async (id) => {
     id = id || '';
